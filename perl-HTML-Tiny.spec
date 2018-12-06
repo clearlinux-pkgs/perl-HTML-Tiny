@@ -4,7 +4,7 @@
 #
 Name     : perl-HTML-Tiny
 Version  : 1.05
-Release  : 4
+Release  : 5
 URL      : https://cpan.metacpan.org/authors/id/A/AN/ANDYA/HTML-Tiny-1.05.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/A/AN/ANDYA/HTML-Tiny-1.05.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libh/libhtml-tiny-perl/libhtml-tiny-perl_1.05-3.debian.tar.xz
