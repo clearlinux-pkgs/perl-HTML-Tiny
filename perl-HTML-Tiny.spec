@@ -4,7 +4,7 @@
 #
 Name     : perl-HTML-Tiny
 Version  : 1.05
-Release  : 14
+Release  : 15
 URL      : https://cpan.metacpan.org/authors/id/A/AN/ANDYA/HTML-Tiny-1.05.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/A/AN/ANDYA/HTML-Tiny-1.05.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libh/libhtml-tiny-perl/libhtml-tiny-perl_1.05-3.debian.tar.xz
@@ -78,7 +78,7 @@ make TEST_VERBOSE=1 test
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/perl-HTML-Tiny
-cp %{_builddir}/HTML-Tiny-1.05/deblicense/copyright %{buildroot}/usr/share/package-licenses/perl-HTML-Tiny/197f9c6c44d34d00c6953817b7e11154f2bcb75e
+cp %{_builddir}/debian/copyright %{buildroot}/usr/share/package-licenses/perl-HTML-Tiny/197f9c6c44d34d00c6953817b7e11154f2bcb75e
 if test -f Makefile.PL; then
 make pure_install PERL_INSTALL_ROOT=%{buildroot} INSTALLDIRS=vendor
 else
@@ -102,4 +102,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/HTML/Tiny.pm
+/usr/lib/perl5/vendor_perl/5.30.2/HTML/Tiny.pm
