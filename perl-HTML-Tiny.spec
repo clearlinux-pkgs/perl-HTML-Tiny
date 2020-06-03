@@ -4,7 +4,7 @@
 #
 Name     : perl-HTML-Tiny
 Version  : 1.05
-Release  : 15
+Release  : 16
 URL      : https://cpan.metacpan.org/authors/id/A/AN/ANDYA/HTML-Tiny-1.05.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/A/AN/ANDYA/HTML-Tiny-1.05.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libh/libhtml-tiny-perl/libhtml-tiny-perl_1.05-3.debian.tar.xz
@@ -102,4 +102,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/HTML/Tiny.pm
+/usr/lib/perl5/vendor_perl/5.30.3/HTML/Tiny.pm
