@@ -7,7 +7,7 @@
 #
 Name     : perl-HTML-Tiny
 Version  : 1.08
-Release  : 35
+Release  : 36
 URL      : https://cpan.metacpan.org/authors/id/A/AR/ARISTOTLE/HTML-Tiny-1.08.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/A/AR/ARISTOTLE/HTML-Tiny-1.08.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libh/libhtml-tiny-perl/libhtml-tiny-perl_1.05-3.debian.tar.xz
